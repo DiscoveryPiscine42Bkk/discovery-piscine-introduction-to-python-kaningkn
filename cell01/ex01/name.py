@@ -1,4 +1,4 @@
-first_name= "W."
-last_name= "W."
-wholename=last_name+first_name
-print(wholename)
+first_name= "W ."
+last_name= "W ."
+whole_name=first_name_name+last_name
+print(whole_name)
