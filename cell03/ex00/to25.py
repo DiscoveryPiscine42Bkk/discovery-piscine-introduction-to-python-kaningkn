@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-print("Enter the number less than 25")
-number = int(input("type a number: "))
-x = 26
-while number <= x:
-    print ("Inside the loop my variable is")
-    number +- 1
-    if number == x:
-        break
-    if number > x:
-        print("Error")
+try:
+    num = int(input("Enter a number less than 25:"))
+except ValueError:
+    print("Error")
+    exit()
 
+if num >= 25:
+    print("Error")
+else:
+    while num <= 25:
+        print(f" Inside the loop, my variable is {num}")
+        num += 1
