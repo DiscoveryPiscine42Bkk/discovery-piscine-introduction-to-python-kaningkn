@@ -4,7 +4,7 @@ number = int(input("type a number: "))
 x = 26
 while number <= x:
     print ("Inside the loop my variable is")
-    bumber +- 1
+    number +- 1
     if number == x:
         break
     if number > x:
