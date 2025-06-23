@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-print("Enter the numver less than 25")
+print("Enter the number less than 25")
 number = int(input("type a number: "))
 x = 26
 while number <= x:
